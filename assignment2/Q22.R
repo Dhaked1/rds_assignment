@@ -1,0 +1,10 @@
+GH<-matrix(c(1,2,3,4),nrow=2,byrow=TRUE)
+print(GH)
+JK<-matrix(c(5,6),nrow=2,byrow=TRUE)
+print(JK)
+LZ<-GH%*%JK
+print(LZ)
+XC<-t(GH)%*%JK
+print(XC)
+VB<-t(JK)%*%(GH%*%t(GH))
+print(VB)
