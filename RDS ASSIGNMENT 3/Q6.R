@@ -1,0 +1,3 @@
+a<-c(TRUE,FALSE,TRUE,TRUE,FALSE,TRUE)
+s<-sum(a)
+s

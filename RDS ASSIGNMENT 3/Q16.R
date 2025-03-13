@@ -1,0 +1,6 @@
+Y<-c(TRUE,FALSE,TRUE,FALSE)
+any(Y)
+all(Y)
+U<-c(3,5,NA,7,9)
+any(is.na(U))
+all(!is.na(U))
